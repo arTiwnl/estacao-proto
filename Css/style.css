@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:  sans-serif;
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	background-image: linear-gradient( to right, #069370, #09DCA8);
+	padding: 0 !important;
+}
+.navbar-brand img{
+	height: 50px;
+	padding-left: 20px;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+	font-size: 20px;
+	float: right;
+	text-align: left;
+
+}
+.fa-bars {
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler{
+	outline: none !important;
+}
+
+/*---------------------banner-------------------*/
+#banner{
+ background-image: linear-gradient( to right, #069370, #09DCA8);
+ 	color: #fff;
+ 	padding-top: 5%;
+
+}
+.title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+#banner a{
+	color: #fff;
+	text-decoration: none;
+}
+.bottom-img{
+	width: 100%;
+}
+.saiba-btn{
+
+	background-color: #6c63ff;
+	border-radius: 2rem;
+	color: #fafafa;
+	display: inline-block;
+	margin-top: 2rem;
+	padding: 1rem 2.5rem;
+	text-transform: uppercase;
+	}
+/*---------------------Carrosel-------------------*/
+
+
+
+
+
+
+/*---------------------Sobre nós-------------------*/
+#about-us{
+	background: #f8f9fa;
+	padding-bottom: 50px;
+	padding-top: 50px; 
+}
+
+.tittle::before{
+	content: '';
+	background:#6c63ff;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(63px); 
+}
+.tittle::after{
+	content: '';
+	background:#6c63ff;
+	height: 10px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translateY(8px); 
+}
+#about-us p{
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
